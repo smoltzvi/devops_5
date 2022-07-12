@@ -3,5 +3,5 @@
 # Using the base image openjdk: latest
 FROM openjdk:latest
 # Copying all my .txt to the containers /usr/share/mydocker directory
-COPY *.txt /usr/share/mydocker
+COPY *.txt /usr/share/mydocker/
 #  
